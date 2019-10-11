@@ -1,5 +1,11 @@
 <img src="data/logo.jpg" width=25% align="right" /> [![Build status](https://travis-ci.org/openai/baselines.svg?branch=master)](https://travis-ci.org/openai/baselines)
 
+** Stop!!! This is a special version of Baselines**
+
+This version of Baselines is for use by a specific project. It forks from the original project at 366f486e34f3fe65085f363aaccd529e3beeac62.
+```setup.py``` has been modified to remove the sub-dependencies of gym. Thus, there is no dependency on Mujoco.
+
+
 # Baselines
 
 OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
