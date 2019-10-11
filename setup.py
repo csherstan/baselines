@@ -10,7 +10,7 @@ setup(name='baselines',
       packages=[package for package in find_packages()
                 if package.startswith('baselines')],
       install_requires=[
-          'gym[mujoco,atari,classic_control,robotics]',
+          'gym',
           'scipy',
           'tqdm',
           'joblib',
@@ -27,4 +27,4 @@ setup(name='baselines',
       author='OpenAI',
       url='https://github.com/openai/baselines',
       author_email='gym@openai.com',
-      version='0.1.5')
+      version='0.1.5arm')
